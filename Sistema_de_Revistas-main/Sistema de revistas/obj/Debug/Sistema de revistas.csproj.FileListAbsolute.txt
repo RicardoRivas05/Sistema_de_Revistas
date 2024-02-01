@@ -1,0 +1,26 @@
+C:\Users\Ricardo Rivas\source\repos\Sistema de revistas\Sistema de revistas\bin\Debug\Sistema de revistas.exe.config
+C:\Users\Ricardo Rivas\source\repos\Sistema de revistas\Sistema de revistas\bin\Debug\Sistema de revistas.exe
+C:\Users\Ricardo Rivas\source\repos\Sistema de revistas\Sistema de revistas\bin\Debug\Sistema de revistas.pdb
+C:\Users\Ricardo Rivas\source\repos\Sistema de revistas\Sistema de revistas\obj\Debug\Sistema de revistas.csprojAssemblyReference.cache
+C:\Users\Ricardo Rivas\source\repos\Sistema de revistas\Sistema de revistas\obj\Debug\Sistema_de_revistas.Properties.Resources.resources
+C:\Users\Ricardo Rivas\source\repos\Sistema de revistas\Sistema de revistas\obj\Debug\Sistema de revistas.csproj.GenerateResource.cache
+C:\Users\Ricardo Rivas\source\repos\Sistema de revistas\Sistema de revistas\obj\Debug\Sistema de revistas.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo Rivas\source\repos\Sistema de revistas\Sistema de revistas\obj\Debug\Sistema de revistas.exe
+C:\Users\Ricardo Rivas\source\repos\Sistema de revistas\Sistema de revistas\obj\Debug\Sistema de revistas.pdb
+C:\Users\Ricardo Rivas\source\repos\Sistema de revistas\Sistema de revistas\obj\Debug\Sistema_de_revistas.forms.frmMenu.resources
+C:\Users\Ricardo Rivas\source\repos\Sistema de revistas\Sistema de revistas\obj\Debug\Sistema_de_revistas.frmLogin.resources
+C:\Users\Ricardo Rivas\source\repos\Sistema de revistas\Sistema de revistas\obj\Debug\Sistema_de_revistas.forms.CrearCuenta.resources
+C:\Users\User\Desktop\Sistema_de_Revistas-main\Sistema de revistas\obj\Debug\Sistema de revistas.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Sistema_de_Revistas-main\Sistema de revistas\obj\Debug\Sistema_de_revistas.forms.CrearCuenta.resources
+C:\Users\User\Desktop\Sistema_de_Revistas-main\Sistema de revistas\obj\Debug\Sistema_de_revistas.frmLogin.resources
+C:\Users\User\Desktop\Sistema_de_Revistas-main\Sistema de revistas\obj\Debug\Sistema_de_revistas.forms.frmMenu.resources
+C:\Users\User\Desktop\Sistema_de_Revistas-main\Sistema de revistas\obj\Debug\Sistema_de_revistas.forms.frmRevistas.resources
+C:\Users\User\Desktop\Sistema_de_Revistas-main\Sistema de revistas\obj\Debug\Sistema_de_revistas.Properties.Resources.resources
+C:\Users\User\Desktop\Sistema_de_Revistas-main\Sistema de revistas\obj\Debug\Sistema de revistas.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\Sistema_de_Revistas-main\Sistema de revistas\obj\Debug\Sistema de revistas.exe
+C:\Users\User\Desktop\Sistema_de_Revistas-main\Sistema de revistas\obj\Debug\Sistema de revistas.pdb
+C:\Users\User\Desktop\Sistema_de_Revistas-main\Sistema de revistas\bin\Debug\Sistema de revistas.exe.config
+C:\Users\User\Desktop\Sistema_de_Revistas-main\Sistema de revistas\bin\Debug\Sistema de revistas.exe
+C:\Users\User\Desktop\Sistema_de_Revistas-main\Sistema de revistas\bin\Debug\Sistema de revistas.pdb
+C:\Users\User\Desktop\Sistema_de_Revistas-main\Sistema de revistas\obj\Debug\Sistema_de_revistas.forms.Recuperarusuario.resources
+C:\Users\User\Desktop\Sistema_de_Revistas-main\Sistema de revistas\obj\Debug\Sistema_de_revistas.forms.frmEditores.resources
