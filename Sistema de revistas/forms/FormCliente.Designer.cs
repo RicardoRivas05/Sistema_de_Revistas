@@ -1,6 +1,6 @@
 ﻿namespace Sistema_de_revistas.forms
 {
-    partial class frmUsuarios
+    partial class FormCliente
     {
         /// <summary>
         /// Required designer variable.
@@ -39,60 +39,60 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(370, 38);
+            this.label1.Location = new System.Drawing.Point(400, 38);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(159, 20);
+            this.label1.Size = new System.Drawing.Size(70, 20);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Usuarios del Sistema";
+            this.label1.Text = "Revistas";
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(57, 116);
+            this.dataGridView1.Location = new System.Drawing.Point(34, 104);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(654, 392);
+            this.dataGridView1.Size = new System.Drawing.Size(644, 404);
             this.dataGridView1.TabIndex = 1;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(758, 184);
+            this.button1.Location = new System.Drawing.Point(756, 183);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(141, 51);
+            this.button1.Size = new System.Drawing.Size(152, 47);
             this.button1.TabIndex = 2;
-            this.button1.Text = "Agregar";
+            this.button1.Text = "Buscar";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(759, 343);
+            this.button2.Location = new System.Drawing.Point(756, 279);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(140, 50);
+            this.button2.Size = new System.Drawing.Size(152, 47);
             this.button2.TabIndex = 3;
-            this.button2.Text = "Buscar";
+            this.button2.Text = "Descargar";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(758, 260);
+            this.button3.Location = new System.Drawing.Point(756, 383);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(141, 48);
+            this.button3.Size = new System.Drawing.Size(152, 47);
             this.button3.TabIndex = 4;
-            this.button3.Text = "Modficar";
+            this.button3.Text = "Puntuar";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // frmUsuarios
+            // FormCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(935, 550);
+            this.ClientSize = new System.Drawing.Size(960, 560);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
-            this.Name = "frmUsuarios";
-            this.Text = "frmUsuarios";
+            this.Name = "FormCliente";
+            this.Text = "FormCliente";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

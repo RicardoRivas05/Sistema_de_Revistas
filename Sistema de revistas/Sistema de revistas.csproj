@@ -52,11 +52,35 @@
     <Compile Include="forms\CrearCuenta.Designer.cs">
       <DependentUpon>CrearCuenta.cs</DependentUpon>
     </Compile>
-    <Compile Include="forms\Form1.cs">
+    <Compile Include="forms\FormAutor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="forms\FormAutor.Designer.cs">
+      <DependentUpon>FormAutor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\FormIniciarSesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\FormIniciarSesion.Designer.cs">
+      <DependentUpon>FormIniciarSesion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\FormCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\FormCliente.Designer.cs">
+      <DependentUpon>FormCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\FormCrearEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\FormCrearEditor.Designer.cs">
+      <DependentUpon>FormCrearEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\FormPuntuar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\FormPuntuar.Designer.cs">
+      <DependentUpon>FormPuntuar.cs</DependentUpon>
     </Compile>
     <Compile Include="forms\frmEditores.cs">
       <SubType>Form</SubType>
@@ -82,16 +106,46 @@
     <Compile Include="forms\frmUsuarios.Designer.cs">
       <DependentUpon>frmUsuarios.cs</DependentUpon>
     </Compile>
+    <Compile Include="forms\Recuperarusuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Recuperarusuario.Designer.cs">
+      <DependentUpon>Recuperarusuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="forms\CrearCuenta.resx">
       <DependentUpon>CrearCuenta.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="forms\FormAutor.resx">
+      <DependentUpon>FormAutor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\FormIniciarSesion.resx">
+      <DependentUpon>FormIniciarSesion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\FormCliente.resx">
+      <DependentUpon>FormCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\FormCrearEditor.resx">
+      <DependentUpon>FormCrearEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\FormPuntuar.resx">
+      <DependentUpon>FormPuntuar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmEditores.resx">
+      <DependentUpon>frmEditores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\frmMenu.resx">
       <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmRevistas.resx">
+      <DependentUpon>frmRevistas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmUsuarios.resx">
+      <DependentUpon>frmUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Recuperarusuario.resx">
+      <DependentUpon>Recuperarusuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -124,6 +178,9 @@
     <None Include="images\logout.png" />
     <None Include="images\newspaper.png" />
     <None Include="images\profile.png" />
+    <None Include="images\rev.png" />
+    <None Include="images\flechas.png" />
+    <None Include="images\archivo.png" />
     <Content Include="images\team.png" />
   </ItemGroup>
   <ItemGroup />

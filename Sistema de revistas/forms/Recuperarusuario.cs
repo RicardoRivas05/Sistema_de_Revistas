@@ -10,28 +10,19 @@ using System.Windows.Forms;
 
 namespace Sistema_de_revistas.forms
 {
-    public partial class CrearCuenta : Form
+    public partial class Recuperarusuario : Form
     {
         private frmLogin loginForm;
-        public CrearCuenta(frmLogin loginForm)
+        public Recuperarusuario(frmLogin loginForm)
         {
             InitializeComponent();
             this.loginForm = loginForm;
-        }
-
-        private void CrearCuenta_Load(object sender, EventArgs e)
-        {
         }
 
         private void txtCancelar_Click(object sender, EventArgs e)
         {
             this.Hide();
             loginForm.Show();
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
