@@ -21,6 +21,9 @@ namespace Sistema_de_revistas.forms
 
         private void CrearCuenta_Load(object sender, EventArgs e)
         {
+            radioButton2.Select();
+            lblAdscripcion.Visible = false;
+            txtAdscripcion.Visible = false;
         }
 
         private void txtCancelar_Click(object sender, EventArgs e)
@@ -31,6 +34,19 @@ namespace Sistema_de_revistas.forms
 
         private void label8_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            lblAdscripcion.Visible = false;
+            txtAdscripcion.Visible = false;
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            lblAdscripcion.Visible = true;
+            txtAdscripcion.Visible = true;
 
         }
     }

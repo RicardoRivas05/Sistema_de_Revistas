@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="class\Conexion.cs" />
     <Compile Include="forms\CrearCuenta.cs">
       <SubType>Form</SubType>
     </Compile>

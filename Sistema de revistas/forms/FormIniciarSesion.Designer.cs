@@ -48,7 +48,7 @@
             this.label1.Location = new System.Drawing.Point(149, 20);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(237, 37);
+            this.label1.Size = new System.Drawing.Size(202, 32);
             this.label1.TabIndex = 0;
             this.label1.Text = "Inicio de Sesion";
             // 
@@ -58,7 +58,7 @@
             this.label2.Location = new System.Drawing.Point(24, 277);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(98, 27);
+            this.label2.Size = new System.Drawing.Size(83, 22);
             this.label2.TabIndex = 2;
             this.label2.Text = "Usuario: ";
             // 
@@ -68,7 +68,7 @@
             this.label3.Location = new System.Drawing.Point(24, 359);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(133, 27);
+            this.label3.Size = new System.Drawing.Size(110, 22);
             this.label3.TabIndex = 3;
             this.label3.Text = "Contraseña: ";
             // 
@@ -77,7 +77,7 @@
             this.txtUsuario.Location = new System.Drawing.Point(142, 269);
             this.txtUsuario.Margin = new System.Windows.Forms.Padding(4);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(282, 35);
+            this.txtUsuario.Size = new System.Drawing.Size(282, 30);
             this.txtUsuario.TabIndex = 4;
             // 
             // txtContra
@@ -85,8 +85,9 @@
             this.txtContra.Location = new System.Drawing.Point(142, 351);
             this.txtContra.Margin = new System.Windows.Forms.Padding(4);
             this.txtContra.Name = "txtContra";
-            this.txtContra.Size = new System.Drawing.Size(282, 35);
+            this.txtContra.Size = new System.Drawing.Size(282, 30);
             this.txtContra.TabIndex = 5;
+            this.txtContra.UseSystemPasswordChar = true;
             // 
             // btnIniciarS
             // 
@@ -105,7 +106,7 @@
             this.linkLabel1.LinkColor = System.Drawing.Color.Black;
             this.linkLabel1.Location = new System.Drawing.Point(75, 506);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(141, 27);
+            this.linkLabel1.Size = new System.Drawing.Size(114, 22);
             this.linkLabel1.TabIndex = 9;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Crear Cuenta";
@@ -117,7 +118,7 @@
             this.linkLabel2.LinkColor = System.Drawing.Color.Black;
             this.linkLabel2.Location = new System.Drawing.Point(244, 506);
             this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(216, 27);
+            this.linkLabel2.Size = new System.Drawing.Size(180, 22);
             this.linkLabel2.TabIndex = 10;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "Olvide mi contraseña";
