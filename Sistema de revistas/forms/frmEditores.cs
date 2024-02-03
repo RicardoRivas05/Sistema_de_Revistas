@@ -39,5 +39,10 @@ namespace Sistema_de_revistas.forms
             this.Hide();
             menu.Show();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

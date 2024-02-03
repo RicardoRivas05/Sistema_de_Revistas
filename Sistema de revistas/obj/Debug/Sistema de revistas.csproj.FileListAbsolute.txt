@@ -39,3 +39,23 @@ C:\Users\AstridGonzalez\Downloads\Sistema_de_Revistas-main\Sistema de revistas\o
 C:\Users\AstridGonzalez\Downloads\Sistema_de_Revistas-main\Sistema de revistas\obj\Debug\Sistema de revistas.csproj.CoreCompileInputs.cache
 C:\Users\AstridGonzalez\Downloads\Sistema_de_Revistas-main\Sistema de revistas\obj\Debug\Sistema de revistas.exe
 C:\Users\AstridGonzalez\Downloads\Sistema_de_Revistas-main\Sistema de revistas\obj\Debug\Sistema de revistas.pdb
+C:\Users\AstridGonzalez\Documents\GitHub\Sistema_de_Revistas\Sistema de revistas\bin\Debug\Sistema de revistas.exe.config
+C:\Users\AstridGonzalez\Documents\GitHub\Sistema_de_Revistas\Sistema de revistas\bin\Debug\Sistema de revistas.exe
+C:\Users\AstridGonzalez\Documents\GitHub\Sistema_de_Revistas\Sistema de revistas\bin\Debug\Sistema de revistas.pdb
+C:\Users\AstridGonzalez\Documents\GitHub\Sistema_de_Revistas\Sistema de revistas\obj\Debug\Sistema de revistas.csprojAssemblyReference.cache
+C:\Users\AstridGonzalez\Documents\GitHub\Sistema_de_Revistas\Sistema de revistas\obj\Debug\Sistema_de_revistas.forms.CrearCuenta.resources
+C:\Users\AstridGonzalez\Documents\GitHub\Sistema_de_Revistas\Sistema de revistas\obj\Debug\Sistema_de_revistas.forms.FormAutor.resources
+C:\Users\AstridGonzalez\Documents\GitHub\Sistema_de_Revistas\Sistema de revistas\obj\Debug\Sistema_de_revistas.frmLogin.resources
+C:\Users\AstridGonzalez\Documents\GitHub\Sistema_de_Revistas\Sistema de revistas\obj\Debug\Sistema_de_revistas.forms.FormCliente.resources
+C:\Users\AstridGonzalez\Documents\GitHub\Sistema_de_Revistas\Sistema de revistas\obj\Debug\Sistema_de_revistas.forms.FormCrearEditor.resources
+C:\Users\AstridGonzalez\Documents\GitHub\Sistema_de_Revistas\Sistema de revistas\obj\Debug\Sistema_de_revistas.forms.FormPuntuar.resources
+C:\Users\AstridGonzalez\Documents\GitHub\Sistema_de_Revistas\Sistema de revistas\obj\Debug\Sistema_de_revistas.forms.frmEditores.resources
+C:\Users\AstridGonzalez\Documents\GitHub\Sistema_de_Revistas\Sistema de revistas\obj\Debug\Sistema_de_revistas.forms.frmMenu.resources
+C:\Users\AstridGonzalez\Documents\GitHub\Sistema_de_Revistas\Sistema de revistas\obj\Debug\Sistema_de_revistas.forms.frmRevistas.resources
+C:\Users\AstridGonzalez\Documents\GitHub\Sistema_de_Revistas\Sistema de revistas\obj\Debug\Sistema_de_revistas.forms.frmUsuarios.resources
+C:\Users\AstridGonzalez\Documents\GitHub\Sistema_de_Revistas\Sistema de revistas\obj\Debug\Sistema_de_revistas.forms.Recuperarusuario.resources
+C:\Users\AstridGonzalez\Documents\GitHub\Sistema_de_Revistas\Sistema de revistas\obj\Debug\Sistema_de_revistas.Properties.Resources.resources
+C:\Users\AstridGonzalez\Documents\GitHub\Sistema_de_Revistas\Sistema de revistas\obj\Debug\Sistema de revistas.csproj.GenerateResource.cache
+C:\Users\AstridGonzalez\Documents\GitHub\Sistema_de_Revistas\Sistema de revistas\obj\Debug\Sistema de revistas.csproj.CoreCompileInputs.cache
+C:\Users\AstridGonzalez\Documents\GitHub\Sistema_de_Revistas\Sistema de revistas\obj\Debug\Sistema de revistas.exe
+C:\Users\AstridGonzalez\Documents\GitHub\Sistema_de_Revistas\Sistema de revistas\obj\Debug\Sistema de revistas.pdb

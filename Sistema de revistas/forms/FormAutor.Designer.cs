@@ -41,16 +41,17 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 107);
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 63);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(126, 23);
+            this.label1.Size = new System.Drawing.Size(232, 41);
             this.label1.TabIndex = 23;
             this.label1.Text = "Subir Articulo";
             // 
             // txtCancelar
             // 
             this.txtCancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.txtCancelar.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCancelar.Location = new System.Drawing.Point(477, 439);
             this.txtCancelar.Name = "txtCancelar";
             this.txtCancelar.Size = new System.Drawing.Size(116, 52);
@@ -75,7 +76,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(8, 133);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(427, 198);
+            this.dataGridView1.Size = new System.Drawing.Size(427, 259);
             this.dataGridView1.TabIndex = 20;
             // 
             // pictureBox1
@@ -103,6 +104,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(611, 507);
             this.Controls.Add(this.btnabrir);
             this.Controls.Add(this.pictureBox1);

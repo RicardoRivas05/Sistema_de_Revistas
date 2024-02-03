@@ -46,9 +46,9 @@
             this.label1.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(35, 94);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 23);
+            this.label1.Size = new System.Drawing.Size(82, 23);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Usuario";
+            this.label1.Text = "Usuario:";
             // 
             // label2
             // 
@@ -56,22 +56,24 @@
             this.label2.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(35, 198);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(171, 23);
+            this.label2.Size = new System.Drawing.Size(178, 23);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Correo Electronico";
+            this.label2.Text = "Correo Electronico:";
             // 
             // textBox1
             // 
+            this.textBox1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(39, 129);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 26);
+            this.textBox1.Size = new System.Drawing.Size(250, 35);
             this.textBox1.TabIndex = 2;
             // 
             // textBox2
             // 
+            this.textBox2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.Location = new System.Drawing.Point(39, 230);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 26);
+            this.textBox2.Size = new System.Drawing.Size(250, 35);
             this.textBox2.TabIndex = 3;
             // 
             // pictureBox1
@@ -79,7 +81,7 @@
             this.pictureBox1.Image = global::Sistema_de_revistas.Properties.Resources.flechas;
             this.pictureBox1.Location = new System.Drawing.Point(325, 72);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(132, 141);
+            this.pictureBox1.Size = new System.Drawing.Size(120, 127);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
@@ -87,19 +89,20 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(98, 20);
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(76, 16);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(275, 36);
+            this.label3.Size = new System.Drawing.Size(309, 41);
             this.label3.TabIndex = 5;
             this.label3.Text = "Recuperar Usuario";
             // 
             // txtenviar
             // 
             this.txtenviar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.txtenviar.Location = new System.Drawing.Point(104, 299);
+            this.txtenviar.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtenviar.Location = new System.Drawing.Point(81, 299);
             this.txtenviar.Name = "txtenviar";
-            this.txtenviar.Size = new System.Drawing.Size(92, 39);
+            this.txtenviar.Size = new System.Drawing.Size(124, 50);
             this.txtenviar.TabIndex = 15;
             this.txtenviar.Text = "Enviar";
             this.txtenviar.UseVisualStyleBackColor = false;
@@ -107,9 +110,10 @@
             // txtCancelar
             // 
             this.txtCancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.txtCancelar.Location = new System.Drawing.Point(257, 299);
+            this.txtCancelar.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCancelar.Location = new System.Drawing.Point(246, 299);
             this.txtCancelar.Name = "txtCancelar";
-            this.txtCancelar.Size = new System.Drawing.Size(94, 39);
+            this.txtCancelar.Size = new System.Drawing.Size(129, 50);
             this.txtCancelar.TabIndex = 16;
             this.txtCancelar.Text = "Cancelar";
             this.txtCancelar.UseVisualStyleBackColor = false;
