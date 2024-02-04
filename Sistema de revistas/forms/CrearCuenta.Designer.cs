@@ -194,6 +194,7 @@
             this.txtRegistrar.TabIndex = 14;
             this.txtRegistrar.Text = "Registrar";
             this.txtRegistrar.UseVisualStyleBackColor = false;
+            this.txtRegistrar.Click += new System.EventHandler(this.txtRegistrar_Click);
             // 
             // txtCancelar
             // 
