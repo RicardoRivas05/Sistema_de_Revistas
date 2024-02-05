@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+using System.Data;
 
 namespace Sistema_de_revistas
 {
@@ -15,7 +16,7 @@ namespace Sistema_de_revistas
 
         public Conexion()
         {
-            this.connectionString = "server = RICARDOPC; database = Revistas; integrated security = true";
+            this.connectionString = "server = DESKTOP-MUK8L7T; database = Revistas; integrated security = true";
             this.SqlConnection = new SqlConnection(this.connectionString);
         }
 
@@ -104,7 +105,41 @@ namespace Sistema_de_revistas
         }
 
 
+        /*public bool InsertarDatosEd(string nombreEd, string apellidoEd, string numeroEd, string correoEd, string usuarioEd, string passwordEd, DateTime fechaEd, string cargoEd)
+        {
+            try
+            {
+                using (SqlConnection conexion = new SqlConnection(connectionString))
+                {
+                    conexion.Open();
 
+                    string query = "INSERT INTO Editores (Nombre, Apellido, NumeroTelefonico, Correo, Usuario, Contraseña, FechaRegistro, Adscripcion, IdTipoUsuario) VALUES " +
+                                   "(@nombre, @apellido, @numero, @correo, @usuario, @password, @fecha, @adscripcion, @tipoUser)";
+
+                    using (SqlCommand command = new SqlCommand(query, conexion))
+                    {
+                        command.Parameters.AddWithValue("@nombre", nombre);
+                        command.Parameters.AddWithValue("@apellido", apellido);
+                        command.Parameters.AddWithValue("@numero", numero);
+                        command.Parameters.AddWithValue("@correo", correo);
+                        command.Parameters.AddWithValue("@usuario", usuario);
+                        command.Parameters.AddWithValue("@password", password);
+                        command.Parameters.AddWithValue("@fecha", fecha);
+                        command.Parameters.AddWithValue("@adscripcion", adscripcion);
+                        command.Parameters.AddWithValue("@tipoUser", tipoUser);
+
+                        int filasAfectadas = command.ExecuteNonQuery();
+
+                        return filasAfectadas > 0;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error al insertar datos en la base de datos: " + ex.Message);
+                return false;  // Retorna false en caso de error
+            }
+        }*/
 
     }
 

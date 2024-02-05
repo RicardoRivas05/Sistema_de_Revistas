@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="class\Conexion.cs" />
+    <Compile Include="class\Documentos.cs" />
     <Compile Include="forms\CrearCuenta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,6 +83,12 @@
     </Compile>
     <Compile Include="forms\FormPuntuar.Designer.cs">
       <DependentUpon>FormPuntuar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\FormSubirArticulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\FormSubirArticulo.Designer.cs">
+      <DependentUpon>FormSubirArticulo.cs</DependentUpon>
     </Compile>
     <Compile Include="forms\frmEditores.cs">
       <SubType>Form</SubType>
@@ -132,6 +139,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="forms\FormPuntuar.resx">
       <DependentUpon>FormPuntuar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\FormSubirArticulo.resx">
+      <DependentUpon>FormSubirArticulo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\frmEditores.resx">
       <DependentUpon>frmEditores.cs</DependentUpon>

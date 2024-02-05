@@ -42,7 +42,6 @@ C:\Users\AstridGonzalez\Downloads\Sistema_de_Revistas-main\Sistema de revistas\o
 C:\Users\AstridGonzalez\Documents\GitHub\Sistema_de_Revistas\Sistema de revistas\bin\Debug\Sistema de revistas.exe.config
 C:\Users\AstridGonzalez\Documents\GitHub\Sistema_de_Revistas\Sistema de revistas\bin\Debug\Sistema de revistas.exe
 C:\Users\AstridGonzalez\Documents\GitHub\Sistema_de_Revistas\Sistema de revistas\bin\Debug\Sistema de revistas.pdb
-C:\Users\AstridGonzalez\Documents\GitHub\Sistema_de_Revistas\Sistema de revistas\obj\Debug\Sistema de revistas.csprojAssemblyReference.cache
 C:\Users\AstridGonzalez\Documents\GitHub\Sistema_de_Revistas\Sistema de revistas\obj\Debug\Sistema_de_revistas.forms.CrearCuenta.resources
 C:\Users\AstridGonzalez\Documents\GitHub\Sistema_de_Revistas\Sistema de revistas\obj\Debug\Sistema_de_revistas.forms.FormAutor.resources
 C:\Users\AstridGonzalez\Documents\GitHub\Sistema_de_Revistas\Sistema de revistas\obj\Debug\Sistema_de_revistas.frmLogin.resources
@@ -79,3 +78,6 @@ C:\Users\Ricardo Rivas\source\repos\Sistema_de_Revistas\Sistema_de_Revistas\Sist
 C:\Users\Ricardo Rivas\source\repos\Sistema_de_Revistas\Sistema_de_Revistas\Sistema de revistas\obj\Debug\Sistema de revistas.csproj.CoreCompileInputs.cache
 C:\Users\Ricardo Rivas\source\repos\Sistema_de_Revistas\Sistema_de_Revistas\Sistema de revistas\obj\Debug\Sistema de revistas.exe
 C:\Users\Ricardo Rivas\source\repos\Sistema_de_Revistas\Sistema_de_Revistas\Sistema de revistas\obj\Debug\Sistema de revistas.pdb
+C:\Users\AstridGonzalez\Documents\GitHub\Sistema_de_Revistas\Sistema de revistas\obj\Debug\Sistema de revistas.csproj.AssemblyReference.cache
+C:\Users\AstridGonzalez\Documents\GitHub\Sistema_de_Revistas\Sistema de revistas\obj\Debug\Sistema de revistas.csproj.SuggestedBindingRedirects.cache
+C:\Users\AstridGonzalez\Documents\GitHub\Sistema_de_Revistas\Sistema de revistas\obj\Debug\Sistema_de_revistas.forms.FormSubirArticulo.resources

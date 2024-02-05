@@ -21,5 +21,12 @@ namespace Sistema_de_revistas.forms
         {
 
         }
+
+        private void btn_crear_editor_Click(object sender, EventArgs e)
+        {
+            Form formulario = new FormCrearEditor();
+            formulario.Show();
+            this.Hide();
+        }
     }
 }

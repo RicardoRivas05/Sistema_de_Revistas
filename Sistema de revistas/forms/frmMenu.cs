@@ -14,6 +14,7 @@ namespace Sistema_de_revistas.forms
     {
         Form revistas;
         Form editores;
+        Form articulos;
         private frmLogin loginForm;
 
         public frmMenu(frmLogin loginForm)
@@ -45,6 +46,13 @@ namespace Sistema_de_revistas.forms
         {
             editores = new frmEditores(this);
             editores.Show();
+            this.Hide();
+        }
+
+        private void toolStripLabel1_Click(object sender, EventArgs e)
+        {
+            articulos = new FormAutor();
+            articulos.Show();
             this.Hide();
         }
     }

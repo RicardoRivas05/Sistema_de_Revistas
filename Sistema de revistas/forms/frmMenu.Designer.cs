@@ -30,10 +30,13 @@
         {
             this.tsButtons = new System.Windows.Forms.ToolStrip();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.tsbUsuarios = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.tsbRevistas = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+            this.tsbEditores = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
             this.label1 = new System.Windows.Forms.Label();
@@ -41,9 +44,7 @@
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnSalir = new System.Windows.Forms.Button();
-            this.tsbUsuarios = new System.Windows.Forms.ToolStripButton();
-            this.tsbRevistas = new System.Windows.Forms.ToolStripButton();
-            this.tsbEditores = new System.Windows.Forms.ToolStripButton();
+            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
             this.tsButtons.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -64,7 +65,8 @@
             this.toolStripSeparator5,
             this.tsbEditores,
             this.toolStripSeparator6,
-            this.toolStripSeparator7});
+            this.toolStripSeparator7,
+            this.toolStripLabel1});
             this.tsButtons.Location = new System.Drawing.Point(0, 0);
             this.tsButtons.Name = "tsButtons";
             this.tsButtons.Size = new System.Drawing.Size(1215, 102);
@@ -75,6 +77,16 @@
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
             this.toolStripSeparator2.Size = new System.Drawing.Size(6, 102);
+            // 
+            // tsbUsuarios
+            // 
+            this.tsbUsuarios.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tsbUsuarios.Image = global::Sistema_de_revistas.Properties.Resources.team;
+            this.tsbUsuarios.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.tsbUsuarios.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbUsuarios.Name = "tsbUsuarios";
+            this.tsbUsuarios.Size = new System.Drawing.Size(68, 97);
+            this.tsbUsuarios.Text = "Usuarios";
             // 
             // toolStripSeparator1
             // 
@@ -89,6 +101,17 @@
             this.toolStripSeparator3.Name = "toolStripSeparator3";
             this.toolStripSeparator3.Size = new System.Drawing.Size(12, 81);
             // 
+            // tsbRevistas
+            // 
+            this.tsbRevistas.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tsbRevistas.Image = global::Sistema_de_revistas.Properties.Resources.magazine;
+            this.tsbRevistas.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.tsbRevistas.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbRevistas.Name = "tsbRevistas";
+            this.tsbRevistas.Size = new System.Drawing.Size(68, 97);
+            this.tsbRevistas.Text = "Revistas";
+            this.tsbRevistas.Click += new System.EventHandler(this.tsbRevistas_Click);
+            // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
@@ -98,6 +121,17 @@
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
             this.toolStripSeparator5.Size = new System.Drawing.Size(6, 102);
+            // 
+            // tsbEditores
+            // 
+            this.tsbEditores.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tsbEditores.Image = global::Sistema_de_revistas.Properties.Resources.contract;
+            this.tsbEditores.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.tsbEditores.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbEditores.Name = "tsbEditores";
+            this.tsbEditores.Size = new System.Drawing.Size(68, 97);
+            this.tsbEditores.Text = "Editores";
+            this.tsbEditores.Click += new System.EventHandler(this.tsbEditores_Click);
             // 
             // toolStripSeparator6
             // 
@@ -124,10 +158,10 @@
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 706);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 704);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 16, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(1215, 30);
+            this.statusStrip1.Size = new System.Drawing.Size(1215, 32);
             this.statusStrip1.TabIndex = 3;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -161,37 +195,12 @@
             this.btnSalir.UseVisualStyleBackColor = false;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
-            // tsbUsuarios
+            // toolStripLabel1
             // 
-            this.tsbUsuarios.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbUsuarios.Image = global::Sistema_de_revistas.Properties.Resources.team;
-            this.tsbUsuarios.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.tsbUsuarios.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbUsuarios.Name = "tsbUsuarios";
-            this.tsbUsuarios.Size = new System.Drawing.Size(68, 99);
-            this.tsbUsuarios.Text = "Usuarios";
-            // 
-            // tsbRevistas
-            // 
-            this.tsbRevistas.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbRevistas.Image = global::Sistema_de_revistas.Properties.Resources.magazine;
-            this.tsbRevistas.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.tsbRevistas.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbRevistas.Name = "tsbRevistas";
-            this.tsbRevistas.Size = new System.Drawing.Size(68, 99);
-            this.tsbRevistas.Text = "Revistas";
-            this.tsbRevistas.Click += new System.EventHandler(this.tsbRevistas_Click);
-            // 
-            // tsbEditores
-            // 
-            this.tsbEditores.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbEditores.Image = global::Sistema_de_revistas.Properties.Resources.contract;
-            this.tsbEditores.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.tsbEditores.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbEditores.Name = "tsbEditores";
-            this.tsbEditores.Size = new System.Drawing.Size(68, 99);
-            this.tsbEditores.Text = "Editores";
-            this.tsbEditores.Click += new System.EventHandler(this.tsbEditores_Click);
+            this.toolStripLabel1.Name = "toolStripLabel1";
+            this.toolStripLabel1.Size = new System.Drawing.Size(81, 97);
+            this.toolStripLabel1.Text = "Articulos";
+            this.toolStripLabel1.Click += new System.EventHandler(this.toolStripLabel1_Click);
             // 
             // frmMenu
             // 
@@ -241,5 +250,6 @@
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel1;
     }
 }
